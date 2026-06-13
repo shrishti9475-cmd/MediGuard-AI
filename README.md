@@ -1,32 +1,36 @@
-# 🩺 AI Health Monitoring & Multi-Agent Healthcare Assistant
+#  Personal Healthcare Monitor (AI Agent)
 
-An intelligent AI-powered healthcare assistant built using Streamlit, LangGraph, Groq LLMs, Tavily API, ElevenLabs, and SQLite. This project helps users track health, analyze medical reports, manage medications, and receive AI-driven wellness insights.
+A comprehensive, AI-powered health monitoring and assistance platform built for the **Capabl Track A: Healthcare Monitoring AI** project. This application acts as a personal health companion, tracking daily fitness and medications, analyzing medical reports, and providing emotional wellness support.
 
----
-
-## 🚀 Features
-
-- 🤖 Multi-persona AI chatbot (Doctor, Friend, Wellness guide)
-- 💊 Medication tracking with database storage
-- 🏃 Fitness activity logging & analytics
-- 📄 Medical report analysis using Vision AI
-- ⚠️ Drug interaction & safety checker
-- 🔎 Real-time medical search (Tavily API)
-- 📊 Health analytics dashboard
-- ❤️ Emotional support chatbot mode
-- 🧠 AI-generated health myths & facts
+🔗 **Live Demo:** [Insert Your Streamlit App Link Here]
 
 ---
 
-## 🧠 Tech Stack
+## Key Features
 
-- Streamlit (Frontend UI)
-- LangGraph + Groq LLMs (AI Agent)
-- Tavily API (Web search)
-- ElevenLabs (AI voice system optional)
-- SQLite (Database)
-- Python (Core logic)
+* **Smart AI Consultant:** Chat with a highly empathetic medical AI. It automatically detects when you take medicine or do a workout and secretly logs it into your database using custom tags.
+* ** Live Health Analytics:** A real-time dashboard tracking your medication schedule and generating live charts for your fitness activities.
+** Report Analyzer & Translator:** Upload medical reports (images). The AI analyzes the complex medical jargon, translates it into easy **Hinglish or English**, and lets you download a professional PDF report.
+** Med-Safety Checker:** Upload or type two different medicines. The AI compares their active salts to warn you about potential clashes or overdoses.
+** Soul Sanctuary:** A safe space for emotional wellness. Talk to 4 different AI personas (Arav, Ishani, Kabir, Meera) for stress relief and mental peace.
 
 ---
 
-## 📁 Project Structure
+##  Tech Stack
+
+* **Frontend & Deployment:** Streamlit, Streamlit Cloud
+* **AI Model:** Llama-3.3-70b-versatile (via Groq API)
+* **Framework:** Python, LangChain
+* **Database:** SQLite3 (Local & Cloud Session tracking)
+* **PDF & Image Processing:** PyMuPDF, xhtml2pdf, Markdown
+
+---
+
+##  How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Prajjwal-dev-001/Healthcare-Monitoring-AI-Agent-.git](https://github.com/Prajjwal-dev-001/Healthcare-Monitoring-AI-Agent-.git)
+   cd Healthcare-Monitoring-AI-Agent-
+
+Check out the [Architecture Documentation](ARCHITECTURE.md) for technical details.

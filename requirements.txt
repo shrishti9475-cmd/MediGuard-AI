@@ -1,0 +1,28 @@
+streamlit
+pandas
+numpy
+groq
+langchain
+langchain-core
+langgraph
+langchain-groq
+python-dotenv
+xhtml2pdf
+markdown
+pymupdf
+Pillow
+
+# Charts
+
+plotly
+
+# Future Features
+
+tavily-python
+elevenlabs
+twilio
+textblob
+easyocr
+opencv-python
+apscheduler
+sqlalchemy
