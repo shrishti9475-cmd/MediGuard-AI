@@ -11,6 +11,8 @@ xhtml2pdf
 markdown
 pymupdf
 Pillow
+folium
+streamlit-folium
 
 # Charts
 
